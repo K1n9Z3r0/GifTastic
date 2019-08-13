@@ -1,12 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>GifTastic</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
-    
+    <h1 id="header">Add your favorite movies to the list and enjoy the gifs!</h1>
+
+    <container>
+        <div id="buttonsArea"></div>
+        <br>
+
+        <form id="search-form">
+            <label for="search-input">Add a movie</label>
+            <input type="text" id="search-input">
+            <input id="addSearch" type="submit" value="Submit">
+        </form>
+        <h2 id="instructions">Click the still image to play the gif</h2>
+
+        <div id="searches"></div>
+    </container>
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
 </body>
 </html>

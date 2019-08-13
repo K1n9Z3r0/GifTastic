@@ -1,0 +1,26 @@
+body {
+		background-image: url("../images/background.jpg");
+		background-size: cover;
+    	background-color: #cccccc;
+    	font-weight: bold;
+   }
+
+   #header{
+	   text-align: center;
+	   color: darkslateblue;
+   }
+
+   #buttonsArea{
+		text-align: center;
+		color: darkslateblue;
+   }
+
+   #search-form{
+	   text-align: center;
+	   color: darkslateblue;
+   }
+
+   #instructions{
+	   text-align: center;
+	   color: darkslateblue;
+   }
